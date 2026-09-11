@@ -5,8 +5,8 @@ const app = express();
 app.use(express.json());
 
 // Claves de configuración de tu aplicación de Meta
-const TOKEN_DE_ACCESO = "TU_TOKEN_TEMPORAL_O_PERMANENTE";
-const ID_TELEFONO_BUSINESS = "TU_PHONE_NUMBER_ID";
+const TOKEN_DE_ACCESO = "EAAdzFrUZCZAVQBSdJoAcZARZADXPL93JX8O0J8kbsSAhEeCof5Ls80C8CvjVVsL9TN1YoubRWScOEPh4FA81ZAdQyyden8StGRR7jpzWdo1AI8bzmVMuxJudwr7SZBlUhhJ8JCqdVFVtqI0ZCXFQRytRALdzrRSpinxNBxh3AjinlHLkPMsdfGbDgNKwlCUaar8JA9Kh6mjEIoUL5MNbjiApKHEgZARSDjPTsf1s4lboLNiisB4ZA9T4hdEATJzKudjts0iEH3hTBfwyiFlOZBUJoc";
+const ID_TELEFONO_BUSINESS = "1378623791993907";
 const TOKEN_VERIFICACION_WEBHOOK = "mi_clave_secreta_123"; // Tú inventas esta palabra
 
 /**
