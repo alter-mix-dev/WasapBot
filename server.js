@@ -70,7 +70,7 @@ app.post('/webhook', async (req, res) => {
  * Función auxiliar para estructurar la petición POST hacia la Cloud API de WhatsApp
  */
 async function enviarMensajeWhatsApp(telefonoDestino, textoRespuesta) {
-    const urlAPI = `https://facebook.com{ID_TELEFONO_BUSINESS}/messages`;
+    const urlAPI = `https://facebook.com{1061287516789190}/messages`;
     
     const payload = {
         messaging_product: "whatsapp",
